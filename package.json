@@ -18,7 +18,7 @@
     "test": "gulp test",
     "test-e2e": "gulp e2e.test",
     "postinstall": "node tools/scripts/postinstall.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
@@ -50,13 +50,13 @@
     "meanio": "~0.9.3",
     "meanio-upload": "^1.0.3",
     "morgan": "^1.7.0",
-    "npm": "^5.6.0",
+    "npm": "^6.10.2",
     "protractor": "^5.1.0",
     "q": "^1.4.1",
     "request": "^2.76.0",
     "shelljs": "^0.7.5",
-    "snyk": "^1.17.5",
-    "view-helpers": "0.1.5"
+    "view-helpers": "0.1.5",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-core": "latest",
