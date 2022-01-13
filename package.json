@@ -54,7 +54,7 @@
     "protractor": "^5.1.0",
     "q": "^1.4.1",
     "request": "^2.76.0",
-    "shelljs": "^0.7.5",
+    "shelljs": "^0.8.5",
     "snyk": "^1.17.5",
     "view-helpers": "0.1.5"
   },
